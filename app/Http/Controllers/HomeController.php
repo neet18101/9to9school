@@ -8,6 +8,10 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('Homepage');
+        try {
+            return view('pages.home');
+        } catch (\Throwable $th) {
+            dd($th->getMessage());
+        }
     }
 }
