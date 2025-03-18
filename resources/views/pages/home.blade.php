@@ -40,7 +40,7 @@
         </section>
     
         <!-- Features Section -->
-        <section class="features">
+        <section class="features" data-aos="fade-up" >
             <div class="feature">
                 <img class="feature-icon" src="{{ asset('assets/active_learning.png') }}" alt="Highly interactive" />
                 <p>Highly interactive</p>
@@ -63,7 +63,7 @@
         </section>
     
         <!-- why choose us -->
-        <div class="why-choose-us">
+        <div class="why-choose-us"  data-aos="fade-up">
             <h1>Why Choose Us</h1>
             <p>
                 Our platform offers a range of features designed to make learning
@@ -96,7 +96,7 @@
         </div>
     
         <!-- Weekly Schedule Section -->
-        <div class="schedule-container">
+        <div class="schedule-container"  data-aos="fade-up">
             <h2>Our Weekly Schedule</h2>
             <p>Click on days and activities to explore our fun-filled week!</p>
     
@@ -207,7 +207,7 @@
         </div>
     
         <!-- platform Section -->
-        <div class="platform-section">
+        <div class="platform-section"  data-aos="fade-up">
             <h2 class="platform-title">See Our Platform in Action</h2>
             <p class="platform-subtitle">
                 Watch how our platform makes learning interactive and engaging for
@@ -229,7 +229,7 @@
         </div>
     
         <!-- Call to action - steps -->
-        <div class="cta">
+        <div class="cta"  data-aos="fade-up">
             <!-- content  -->
             <div class="content">
                 <h1>Start Your Child's Learning Journey Today</h1>
@@ -283,7 +283,7 @@
         </div>
     
         <!-- review Section -->
-        <section class="reviews-section">
+        <section class="reviews-section"  data-aos="fade-up">
             <div class="reviews-header">
                 <h2>What Parents Say About Us</h2>
                 <p>
@@ -340,7 +340,7 @@
         </section>
     
         <!-- galary Section -->
-        <div class="gallery-container">
+        <div class="gallery-container"  data-aos="fade-up">
             <h2>Gallery</h2>
             <div class="gallery-grid">
                 <img src="{{ asset('assets/gallery1.png') }}" alt />
@@ -352,7 +352,7 @@
         </div>
     
         <!-- Contact Section -->
-        <div class="contact">
+        <div class="contact"  data-aos="fade-up">
             <!-- left side image -->
             <img class="contact-img" src="{{ asset('assets/phone.png') }}" alt="image" />
     
